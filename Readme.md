@@ -42,12 +42,13 @@ AWS 環境・A5:SQL Mk-2 を使いながら、Step形式で体系的に学習を
 - Step4：DROP vs TRUNCATE  
 
 ### ✔ DML（これから）
-- SELECT / WHERE / ORDER BY / LIMIT  
-- INSERT / UPDATE / DELETE  
-- JOIN（INNER / LEFT / RIGHT）  
-- GROUP BY / HAVING  
-- サブクエリ  
-- 集合演算  
+- Step1：SELECT / WHERE / ORDER BY（基本構文）
+- Step2：JOIN（INNER / LEFT）＋ ON 句（テーブル結合）
+- Step3：GROUP BY ＋ 集計関数（COUNT / SUM / AVG / MAX / MIN）
+- Step4：HAVING（集計後の条件）
+- Step5：CASE（条件分岐で値を変える）
+- Step6：サブクエリ（WHERE / FROM / EXISTS / IN / NOT IN）
+- Step7：Window関数（ROW_NUMBER / RANK / DENSE_RANK）＋ OVER()
 
 ---
 
