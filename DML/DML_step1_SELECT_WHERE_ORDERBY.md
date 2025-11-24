@@ -24,7 +24,7 @@ FROM products;
 ---
 
 ## WHERE：条件で絞り込み
-```
+```sql
 SELECT *
 FROM products
 WHERE price >= 1000;
@@ -44,7 +44,7 @@ WHERE price >= 1000;
 ---
 
 ## ORDER BY：並び替え
-```
+```sql
 SELECT name, price
 FROM products
 ORDER BY price DESC;
@@ -56,13 +56,13 @@ ORDER BY price DESC;
 - 降順：DESC
 - 複数キーもOK
 
-```
+```sql
 ORDER BY department ASC, price DESC;
 ```
 
 ## まとめ：SELECT + WHERE + ORDER BY の基本形
 
-```
+```sql
 SELECT 列名
 FROM テーブル名
 WHERE 条件
@@ -74,13 +74,13 @@ ORDER BY 並び順;
 ## 演習課題（A5M2 / SQL Fiddle どちらでもOK）
 
 ### ① 全商品の一覧を取得（全列）
-```
+```sql
 SELECT * FROM products;
 ```
 
 ### ② 価格が 2000 以上の商品だけ取得
 
-```
+```sql
 SELECT name, price
 FROM products
 WHERE price >= 2000;
@@ -88,7 +88,7 @@ WHERE price >= 2000;
 
 ### ③ 価格が安い順に並べる
 
-```
+```sql
 SELECT name, price
 FROM products
 ORDER BY price ASC;
@@ -96,7 +96,7 @@ ORDER BY price ASC;
 
 ### ④ 名前に「Pro」が含まれる商品を検索
 
-```
+```sql
 SELECT *
 FROM products
 WHERE name LIKE '%Pro%';
@@ -104,7 +104,7 @@ WHERE name LIKE '%Pro%';
 
 ### 補足：データが無い場合のサンプル INSERT
 
-```
+```sql
 INSERT INTO products (product_id, name, price, stock) VALUES
 (1, 'Keyboard Pro', 2980, 12),
 (2, 'Mouse Lite', 980, 50),
