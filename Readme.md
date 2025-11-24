@@ -41,7 +41,7 @@ AWS 環境・A5:SQL Mk-2 を使いながら、Step形式で体系的に学習を
 - Step3：ALTER TABLE  
 - Step4：DROP vs TRUNCATE  
 
-### ✔ DML（これから）
+### ✔ DML（25/11/25 2:30,Step 3まで完了）
 - Step1：SELECT / WHERE / ORDER BY（基本構文）
 - Step2：JOIN（INNER / LEFT）＋ ON 句（テーブル結合）
 - Step3：GROUP BY ＋ 集計関数（COUNT / SUM / AVG / MAX / MIN）
