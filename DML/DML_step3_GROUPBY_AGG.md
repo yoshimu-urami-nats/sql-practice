@@ -45,7 +45,9 @@ GROUP BY category_id;
 
 ### MAX / MIN：最大・最小
 ```sql
-SELECT category_id, MAX(price) AS max_price, MIN(price) AS min_price
+SELECT category_id,
+       MAX(price) AS max_price,
+       MIN(price) AS min_price
 FROM products
 GROUP BY category_id;
 ```
